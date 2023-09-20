@@ -1,5 +1,6 @@
 lines = open('./inputs/d4.txt', 'r').readlines()
 ans = 0
+ansB = 0
 
 linesT = """2-4,6-8
 2-3,4-5
@@ -23,6 +24,8 @@ for line in lines:
     # elif (range(bStart,bEnd) in range (aStart,aEnd)):
     #     ans += 1
     if (aStart>=bStart and aEnd<=bEnd) or (bStart>= aStart and bEnd <= aEnd): ans += 1
+    if (aStart >= bStart and aStart <= bEnd) or (bStart >= aStart and bStart <= aEnd): ansB += 1
 
 
 print(ans)
+print(ansB)
