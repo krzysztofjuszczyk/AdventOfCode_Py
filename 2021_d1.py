@@ -1,4 +1,4 @@
-lines = open('./inputs/d1.txt', 'r').readlines()
+lines = open('inputs/2021_d1.txt', 'r').readlines()
 
 prev = 0
 cur = 0

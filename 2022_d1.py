@@ -1,5 +1,5 @@
 # day 1
-input = open('./inputs/d1.txt').readlines()
+input = open('inputs/2022_d1.txt').readlines()
 max = 0
 currentElf = 0
 allElves = []

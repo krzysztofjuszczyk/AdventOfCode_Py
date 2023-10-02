@@ -1,4 +1,4 @@
-input = open('./inputs/d2.txt').readlines()
+input = open('inputs/2022_d2.txt').readlines()
 results = [ 'A Y', 'B Z', 'C X', #win  /
             'A X', 'B Y', 'C Z', #draw
             'A Z', 'B X', 'C Y' #loss
@@ -29,7 +29,7 @@ map_inputB = {'A': 'Rock', 'B': 'Paper', 'C': 'Scissors', 'X': 'Lose', 'Y': 'Dra
 points_per_shape = {'Rock': 1, 'Paper': 2, 'Scissors': 3}
 points_per_outcome = {'Lose': 0, 'Draw': 3, 'Win': 6}
 
-with open('./inputs/d2.txt', 'r') as file:
+with open('inputs/2022_d2.txt', 'r') as file:
     lines = file.readlines()
     l = [entry.strip() for entry in lines]
 

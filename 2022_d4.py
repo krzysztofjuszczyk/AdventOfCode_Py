@@ -1,4 +1,4 @@
-lines = open('./inputs/d4.txt', 'r').readlines()
+lines = open('inputs/2022_d4.txt', 'r').readlines()
 ans = 0
 ansB = 0
 
