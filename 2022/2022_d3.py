@@ -1,4 +1,4 @@
-lines = open('inputs/2022_d3.txt').readlines()
+lines = open('../inputs/2022_d3.txt').readlines()
 ans = 0
 for line in lines:
     indexH = len(line)//2
@@ -11,7 +11,7 @@ for line in lines:
 
 print('part A: '+ str(ans))
 
-lines2 = open('inputs/2022_d3.txt', 'r').read().splitlines()
+lines2 = open('../inputs/2022_d3.txt', 'r').read().splitlines()
 ans2 = 0
 groups = [[lines2[i], lines2[i + 1], lines2[i + 2]] for i, _ in enumerate(lines2[:-2]) if i % 3 == 0]
 for group in groups:

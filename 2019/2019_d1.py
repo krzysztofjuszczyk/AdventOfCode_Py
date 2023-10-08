@@ -1,4 +1,4 @@
-lines = open("./inputs/2019_d1.txt","r")
+lines = open("../inputs/2019_d1.txt", "r")
 ans = 0
 ansB = 0
 

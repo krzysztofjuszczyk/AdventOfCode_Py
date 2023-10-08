@@ -1,4 +1,4 @@
-lines = open("inputs/2020_d1.txt", "r").readlines()
+lines = open("../inputs/2020_d1.txt", "r").readlines()
 parsedLines = [int(l) for l in lines]
 
 sum = 2020

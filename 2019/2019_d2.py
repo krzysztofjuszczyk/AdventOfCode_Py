@@ -1,4 +1,4 @@
-line = open("./inputs/2019_d2.txt","r").readline()
+line = open("../inputs/2019_d2.txt", "r").readline()
 ans = 0
 values = []
 

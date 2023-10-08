@@ -1,4 +1,4 @@
-lines = open('inputs/2021_d2.txt', 'r').readlines()
+lines = open('../inputs/2021_d2.txt', 'r').readlines()
 horizontal = 0
 depth = 0
 for l in lines:

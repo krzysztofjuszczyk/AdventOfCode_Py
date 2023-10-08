@@ -46,7 +46,7 @@ class CargoBay:
             print(crate.content)
         print('-----')
 
-with open('inputs/2022_d5.txt', 'r') as f:
+with open('../inputs/2022_d5.txt', 'r') as f:
     lines = f.readlines()
     lines = [entry for entry in lines]
 number_of_crates = len(lines[0]) // 4

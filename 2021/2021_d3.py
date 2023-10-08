@@ -1,4 +1,4 @@
-lines = open('inputs/2021_d3.txt', 'r').readlines()
+lines = open('../inputs/2021_d3.txt', 'r').readlines()
 
 # initialize empty strings
 gamma, epsilon = '', ''
