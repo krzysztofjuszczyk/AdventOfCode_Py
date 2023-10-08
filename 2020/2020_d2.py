@@ -15,10 +15,11 @@ for l in lines:
     if min <= count <= max:
         ans += 1
 
-    if code[min-1] == letter and code [max-1] != letter:
+# XOR
+    if (code[min-1] == letter) != (code [max-1] == letter):
         ansB += 1
-    if code[min-1] != letter and code [max-1] == letter:
-        ansB += 1
+    # if code[min-1] != letter and code [max-1] == letter:
+    #     ansB += 1
 
 print(ans)
 print(ansB)
